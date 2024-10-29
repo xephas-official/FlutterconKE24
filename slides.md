@@ -129,10 +129,10 @@ bricks:
 or from Github
 
 ```yaml
-bricks:
   hello_world:
     git:
-      url:
+      url: https://github.com/xephas-official/FlutterconKE24.git
+      path: hello_world
 ```
 
 - Then run the `mason get` command to add the brick to the workspace, this is similar to running `flutter pub get` to add a package to a flutter project
