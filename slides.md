@@ -59,6 +59,8 @@ Syntax: `mason new <your_brick_name>`
 mason new hello_world
 ```
 
+## Now Switch Branch of this Github Repo to the next step - `1_hello_world`
+
 ## Sharing Bricks
 
 ### 1) Locally
