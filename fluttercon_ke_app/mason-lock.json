@@ -1,1 +1,1 @@
-{"bricks":{"hello":"0.1.0+1"}}
+{"bricks":{"hello":"0.1.0+1","hello_world":{"git":{"url":"https://github.com/xephas-official/FlutterconKE24.git","path":"hello_world","ref":"4e45dcf3ecf9920532b592939d995788899e0ff6"}}}}
