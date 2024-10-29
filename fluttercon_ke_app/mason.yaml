@@ -1,2 +1,5 @@
 bricks:
   hello: ^0.1.0+1
+  
+  hello_world:
+    path: ../hello_world
