@@ -1,9 +1,26 @@
 bricks:
   hello: ^0.1.0+1
-  
+
+  # get the hello_world brick from local storage
   # hello_world:
   #   path: ../hello_world
+
+  # get the hello_world brick from the git repository
   hello_world:
     git:
       url: https://github.com/xephas-official/FlutterconKE24.git
       path: hello_world
+
+  # get the app_feature brick from local storage
+  app_feature:
+    path: ../app_feature
+
+  # get the app_feature brick from the git repository
+  # app_feature:
+  #   git:
+  #     url: https://github.com/xephas-official/FlutterconKE24.git
+  #     path: app_feature
+  
+  # get the app_template brick from local storage
+  app_template:
+    path: ../app_template

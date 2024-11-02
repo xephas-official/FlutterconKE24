@@ -1,0 +1,58 @@
+name: app_template
+description: In this section, we'll take a look at how to create a full app template using Mason. We'll create a brick for a simple Flutter project that will be the foundation of our app template.
+
+# The following defines the version and build number for your brick.
+# A version number is three numbers separated by dots, like 1.2.34
+# followed by an optional build number (separated by a +).
+version: 0.2.0+3
+
+# The following defines the environment for the current brick.
+# It includes the version of mason that the brick requires.
+environment:
+  mason: ">=0.1.0-dev.60 <0.1.0"
+
+vars:
+  # app name
+  app_name:
+    type: string
+    description: Name of the app you want to create
+    default: app_name
+    prompt: What is the name of your app?
+
+  # name of the json file containing the app data
+  json_file_name:
+    type: string
+    description: Name of the json file containing the app data
+    default: app_data.json
+    prompt: What is the name of the json file containing the app data (app_name, folders, features, etc)?
+  
+  # default folders
+  folders:
+    type: list
+    description: List of folders you want to create
+    prompt: What are the default folders for your app? [app, global] are reseved so add the rest as (comma-separated values) e.g data, routes, screens \':\'
+
+  # app features
+  features:
+    type: list
+    description: List of features you want to create
+    prompt: What are the features(screens) you want to add to the app? (comma-separated) e.g home, auth, user \':-\'
+
+  # dependencies
+  dependencies:
+    type: list
+    description: List of dependencies (packages) you want to add to the app
+    prompt: What are the dependencies (packages) you want to add to the app? (comma-separated) e.g provider, http, shared_preferences ':-'
+
+  # dev dependencies
+  dev_dependencies:
+    type: list
+    description: List of dev dependencies (packages) you want to add to the app
+    prompt: What are the dev dependencies (packages) you want to add to the app? (comma-separated) e.g flutter_launcher_icons, flutter_test ':-'
+
+  # name of your features folder
+  features_folder:
+    type: string
+    description: Name of the folder where you want to store your app features
+    default: screens
+    prompt: What is the name of the folder where you want to store your features?

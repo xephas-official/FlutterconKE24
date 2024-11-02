@@ -1,1 +1,1 @@
-{"bricks":{"hello":"0.1.0+1","hello_world":{"git":{"url":"https://github.com/xephas-official/FlutterconKE24.git","path":"hello_world","ref":"4e45dcf3ecf9920532b592939d995788899e0ff6"}}}}
+{"bricks":{"app_feature":{"path":"/Users/xephasbrian/Projects/FlutterconKE24/app_feature"},"app_template":{"path":"/Users/xephasbrian/Projects/FlutterconKE24/app_template"},"hello":"0.1.0+1","hello_world":{"git":{"url":"https://github.com/xephas-official/FlutterconKE24.git","path":"hello_world","ref":"bba7c7b5ae8eb8d191570db21cd32fb34e634996"}}}}
