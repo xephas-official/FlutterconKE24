@@ -1,11 +1,18 @@
 
 # Step 1: Introduction
 
+Watch this video to get a quick overview of what Mason is and how it can be used to generate code in Flutter projects.
 [Mason (Package of the Week) - Official Flutter YouTube Channel](https://youtu.be/qjA0JFiPMnQ?si=eQe2MbtnRKWBdEyO)
 
 ---
 
-## Started Example: Using the hello brick template
+## Get Started Example: Using the hello brick template
+
+Create a new Flutter project (In this case we shall use [fluttercon_ke_app](../fluttercon_ke_app/)) and this is what we shall use throughout the session to demonstrate how to use Mason to generate code in Flutter projects.
+
+``` bash
+flutter create fluttercon_ke_app
+```
 
 We shall test this out in `fluttercon_ke_app` folder (So open it in terminal to run commands)
 
@@ -46,5 +53,15 @@ Syntax: `mason make <brick_name>`
 mason make hello
 ```
 
+- It will prompt you to enter a name, this is used in the generated file content
+
+```bash
+What is your name?: Cephas
+```
+
 - Output
 The above brick creates a file `HELLO.md` in the root of the project, with the name we provided in the command, e.g if the name was `Cephas`, the file content would be `Hello Cephas! 👋`
+
+```markdown
+Hello Cephas! 👋
+```

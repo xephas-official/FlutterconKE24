@@ -2,6 +2,8 @@
 
 In this section, we'll take a look at how to create a full app template using Mason. We'll create a brick for a simple Flutter project that will be the foundation of our app template.
 
+## TL:DR; Code is in the [app_template](../app_template) folder
+
 So this follows the same steps as the previous bricks (`hello_world` and `app_feature`), and also defines it's variables in the `brick.yaml` file, and then uses the `__brick__` folder to define the output of the brick.
 
 > You can add your own variables to the `brick.yaml` file to customize the app template to your needs.

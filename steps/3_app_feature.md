@@ -4,13 +4,15 @@
 Here's our first brick (`app_feature`), we shall use this to add features to our Flutter app
 
 This is a simple brick that we can use to add features to our Flutter app, it will create a folder structure for the feature, and also add the necessary files and folders for the feature.
-This is built on top of the FDD (Feature Driven Development) approach, where we focus on building features for the app.
+This is built on top of the `FDD (Feature Driven Development)` approach, where we focus on building features for the app.
 
 ## Following the FDD approach (any other approach can be used)
 
-We will follow the FDD (Feature Driven Development) approach to create a brick for a simple Flutter project this will be the foundation of our app template.
+We will follow the `FDD (Feature Driven Development)` approach to create a brick for a simple Flutter project this will be the foundation of our app template.
 
 [FDD](https://en.m.wikipedia.org/wiki/Feature-driven_development) is a software development process that is driven by the features that the software will provide. It is a lightweight or Agile method for developing software.
+
+## TL:DR; Code is in the [app_feature](../app_feature) folder
 
 ## a) Application on a single feature, building out that brick we can use to add a feature to our flutter app
 

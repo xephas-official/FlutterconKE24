@@ -12,7 +12,7 @@ In this talk, I will explore how reusable app templates can revolutionise how Fl
 
 ## What is Mason?
 
-Mason is a CLI tool that helps you build and manage templates for your Flutter projects. It allows you to create reusable templates for your Flutter projects, which can be used to generate boilerplate code, files, and folders with a single command. Mason templates are called Bricks, and they can be used to generate anything from a simple file to a complex project structure. Mason is a powerful tool that can help you streamline your development process, maintain consistency across your projects, and save time by automating repetitive tasks.
+Mason is a CLI tool that helps you build and manage templates for your Flutter projects. It allows you to create reusable templates for your Flutter projects, which can be used to generate boilerplate code, files, and folders with a single command. Mason templates are called **Bricks**, and they can be used to generate anything from a simple file to a complex project structure. Mason is a powerful tool that can help you streamline your development process, maintain consistency across your projects, and save time by automating repetitive tasks.
 
 ## Other Resources to Guide You Through
 
@@ -20,6 +20,7 @@ Mason is a CLI tool that helps you build and manage templates for your Flutter p
 
 - [Mason Docs](https://docs.brickhub.dev/category/getting-started)
 - [Get Started With Mason](https://docs.brickhub.dev/)
+- [Mason CLI](https://github.com/felangel/mason/tree/master/packages/mason_cli)
 - [Creating Bricks](https://docs.brickhub.dev/category/creating-bricks)
 - [Mason GitHub Repo](https://github.com/felangel/mason)
 - [Explore other Bricks(App Templates) from Brickhub](https://brickhub.dev/)

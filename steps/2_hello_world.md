@@ -1,11 +1,17 @@
 
 # Step2: (Live Coding) `hello_world` Brick (Template) Creation
 
-## How's the `hello` brick in [Step 1](./1_intro.md) made? by Creating our own `hello_world` brick to do the same
+## You could be Wondering??
+
+### Qn: How's the `hello` brick in [Step 1](./1_intro.md) made?
+
+### Ans: Creating our own `hello_world` brick (template) from scratch
 
 This is a simple brick that we can use to understand how bricks are made, so that we can base on that to create our own bricks.
 
-Step are on this [Creating Bricks guide](https://docs.brickhub.dev/mason-new)
+### TL:DR; Code is in the [hello_world](../hello_world) folder
+
+## Step are on this [Creating Bricks guide](https://docs.brickhub.dev/mason-new)
 
 1 - Create a new brick using the `mason new` command, this will create a new folder with the brick files and folders
 Syntax: `mason new <your_brick_name>` (e.g `hello_world`)
