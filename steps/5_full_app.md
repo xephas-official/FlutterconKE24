@@ -20,7 +20,28 @@ Additionally, `it's self-destructive`, meaning that it deletes itself after gene
 
 ## Usaging this `app_template` Brick
 
-### 1) Create a JSON file in the root of your project e.g `app_data.json`
+### 1a) Add the Brick to your Project
+
+Add the `app_template` brick to the workspace, by adding it to the `mason.yaml` file in the root of the project
+
+- Here we add it locally, by providing the path to the brick folder in the `mason.yaml` file
+
+```yaml
+bricks:
+  app_template:
+    path: ../app_template
+```
+
+or from Github
+
+```yaml
+  app_template:
+    git:
+      url: https://github.com/xephas-official/FlutterconKE24.git
+      path: app_template
+```
+
+### 1b) Create a JSON file in the root of your project e.g `app_data.json`
 
 This will have all the required features for the app template, and then use that to generate the app template. We prefer using a _json file to generate the app templacte to avoid errors since the brick contains many variables, and any existing files will be overwritten_
 
