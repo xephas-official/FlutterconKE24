@@ -2,5 +2,5 @@
 
 Here are your details:
 
-- Username: Brian Cephas! 👋
-- Country: Kenya 🌍
+- Username: fgh! 👋
+- Country: Uganda 🌍

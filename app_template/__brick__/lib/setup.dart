@@ -8,7 +8,7 @@ import 'global/printer/crinter.dart';
 const String libFolder = 'lib';
 
 /// name of your features folder
-const String featuresFolder = '$libFolder/screens';
+const String featuresFolder = '$libFolder/{{features_folder}}';
 
 // reserved folders, these are served folders that come
 // with the brick and should not be changed

@@ -16,11 +16,12 @@ bricks:
     path: ../app_feature
 
   # get the app_feature brick from the git repository
-  # app_feature:
-  #   git:
-  #     url: https://github.com/xephas-official/FlutterconKE24.git
-  #     path: app_feature
-  
-  # get the app_template brick from local storage
   app_template:
-    path: ../app_template
+    git:
+      url: https://github.com/xephas-official/FlutterconKE24.git
+      path: app_template
+  
+  
+  # # get the app_template brick from local storage
+  # app_template:
+  #   path: ../app_template
